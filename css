@@ -1,0 +1,63 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: url('https://postimg.cc/Mc7X6Mt4') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    padding: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.booking .search-fields {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    margin-right: 10px;
+    width: 200px;
+    border: 2px solid #87CEEB; /* 스카이블루 색상 */
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #87CEEB;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #6495ED;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #87CEEB;
+    color: white;
+}
